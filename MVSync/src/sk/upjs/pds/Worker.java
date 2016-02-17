@@ -47,7 +47,7 @@ class Worker extends Thread {
 	}
 
 	/**
-	 * Realizuje nejamu pracu. Zakaz modifikovat!
+	 * Realizuje nejaku pracu. Zakaz modifikovat!
 	 */
 	private void doSomeWork() throws InterruptedException {
 		Thread.sleep((long) (Math.random() * 10000));
